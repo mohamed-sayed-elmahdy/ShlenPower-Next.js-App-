@@ -7,7 +7,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Screenshots:
 ![ShlenPower-Next.js-App](https://raw.githubusercontent.com/mohamed-sayed-elmahdy/ShlenPower-Next.js-App-/master/public/screen1.png)
-https://raw.githubusercontent.com/mohamed-sayed-elmahdy/ShlenPower-Next.js-App-/master/public/screen1.png
 
 
 
