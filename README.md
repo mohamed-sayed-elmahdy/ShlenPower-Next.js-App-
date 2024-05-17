@@ -1,4 +1,9 @@
+Developed a responsive and high-performance web application using Next.js, demonstrating its advanced features and capabilities. Implemented a clean, modern user interface with efficient navigation and dynamic content loading. Gained proficiency in JavaScript, CSS, and server-side rendering, enhancing the application's speed and SEO performance.
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Screenshots:
+![ShlenPower-Next.js-App](https://raw.githubusercontent.com/mohamed-sayed-elmahdy/ShlenPower-Next.js-App-/master/public/screen1.png)
+https://raw.githubusercontent.com/mohamed-sayed-elmahdy/ShlenPower-Next.js-App-/master/public/screen1.png
 
 ## Getting Started
 
