@@ -1,0 +1,199 @@
+/* What Is a Zero Section*/
+
+.WhatIsaZeroSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.75) 100%
+      )
+      no-repeat,
+    url("../../../public/whatIsBlock.png") no-repeat;
+  background-size: cover;
+  background-position: center, 100% auto;
+  margin: 0rem 2rem 1rem;
+  border-radius: 10px;
+}
+
+.WhatIsaZeroSection .WhatIsaZeroSectionTitle {
+  margin: 19rem auto 13rem;
+  font-size: 56px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* End What Is a Zero Section*/
+
+/* Introducing Section */
+
+.WhatIstextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto 2rem;
+  background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.75) 100%
+      )
+      no-repeat,
+    url("../../../public/zeroLight.png") no-repeat;
+  background-size: contain 100%;
+  background-position: center left;
+}
+.introducingcontainer {
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 15px 10px;
+  color: #cccccc;
+  font-weight: 400;
+}
+.introducingcontainer .introducingtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 14px;
+  gap: 1rem;
+}
+.introducingcontainer .introducingtext .introducingparagraph {
+  width: 72%;
+  font-weight: 400;
+}
+.introducingcontainer .introducingicon {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.WhatIstextContainer .WhatIsparagraph {
+  width: 59.2%;
+  margin: 3rem auto 2rem;
+  color: #cccccc;
+}
+.WhatIstextContainer .WhatIsparagraph h1 {
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  font-weight: 800;
+  color: transparent;
+  margin-bottom: 1rem;
+}
+.WhatIstextContainer .WhatIsparagraph p {
+  font-size: 15px;
+  color: #cccccc;
+}
+.WhatIstextContainer .WhatIsparagraph .ZeroParagraph {
+  margin-top: 1.2rem;
+  color: #cccccc;
+}
+.WhatIstextContainer .paragraphLists {
+  padding: 15px 25px;
+  color: #cccccc;
+  font-weight: 400;
+}
+.WhatIstextContainer .paragraphLists li {
+  margin-top: 0.5rem;
+}
+.WhatIstextContainer .WhatIsCardsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin: 2rem auto;
+  width: 70%;
+  flex-direction: column;
+}
+.WhatIstextContainer .WhatIsCardsContainer .container {
+  margin-top: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.WhatIsCardsContainer .card {
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+.WhatIstextContainer .WhatIsCardsTitle {
+  color: #00bfe5;
+}
+.WhatIsCardsContainer .card .textContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 230px;
+  gap: 0.1rem;
+}
+.WhatIsCardsContainer .card .textContainer h2 {
+  font-size: 27px;
+  text-transform: capitalize;
+}
+.WhatIsCardsContainer .card .textContainer p {
+  font-size: 12px;
+  color: #cccccc;
+}
+/* End Introducing Section */
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .WhatIsaZeroSection .WhatIsaZeroSectionTitle {
+    font-size: 46px;
+  }
+  .WhatIstextContainer .WhatIsparagraph {
+    width: 65.2%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .WhatIsaZeroSection .WhatIsaZeroSectionTitle {
+    font-size: 40px;
+  }
+  .WhatIstextContainer .WhatIsparagraph {
+    width: 79.2%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .WhatIsaZeroSection .WhatIsaZeroSectionTitle {
+    font-size: 35px;
+  }
+  .WhatIstextContainer .WhatIsparagraph {
+    width: 79.2%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .WhatIsaZeroSection .WhatIsaZeroSectionTitle {
+    font-size: 30px;
+  }
+  .WhatIstextContainer .WhatIsparagraph {
+    width: 90.2%;
+  }
+  .WhatIstextContainer .WhatIsparagraph h1 {
+    font-size: 24px;
+  }
+  .WhatIstextContainer .WhatIsparagraph p,
+  .WhatIstextContainer .paragraphLists li {
+    font-size: 14px;
+  }
+  .WhatIstextContainer .WhatIsCardsContainer {
+    width: 94%;
+  }
+  .WhatIsCardsContainer .card {
+    width: 100%;
+  }
+  .WhatIsCardsContainer .card .textContainer {
+    width: 100%;
+  }
+  .WhatIsCardsContainer .card .textContainer h2 {
+    font-size: 18px;
+    }
+}
+
+
+
+

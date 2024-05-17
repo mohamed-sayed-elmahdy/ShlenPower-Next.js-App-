@@ -1,0 +1,1048 @@
+/* main section */
+
+.mainSection {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../../public/waves.png") no-repeat,
+    linear-gradient(180deg, rgba(255, 0, 0, 0) 60%, #0076b1af, #498fff)
+      no-repeat,
+    url("../../public/group.png") no-repeat;
+  background-size: auto 100%, 100% auto, auto 100%;
+  background-position: center;
+  border-radius: 0 0 25px 25px;
+}
+
+.mainSection .container {
+  flex-direction: column;
+  margin: 5rem auto;
+  justify-content: center;
+}
+
+.mainSection .container .btn {
+  color: white;
+  margin: 4rem auto 3rem;
+  cursor: pointer;
+  background: linear-gradient(320deg, #00e5d2b6 5%, #2577f9 90%);
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+}
+
+.mainSection .container .btn:hover {
+  background: linear-gradient(320deg, #00746a 5%, #003893 90%);
+}
+
+.mainSection .container .title {
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+}
+
+.mainSection .container .title .companyName {
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  font-weight: 700;
+  color: transparent;
+  font-size: 57px;
+}
+
+.mainSection .container .paragraph {
+  width: 53%;
+  text-align: center;
+}
+
+/* End main section */
+
+/* Strategy Section */
+
+.strategySection {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../../public/Ellipse38.png") no-repeat,
+    url("../../public/Ellipse36.png"), url("../../public/giphy1.png");
+  background-size: cover;
+  background-position: center, top right, left;
+}
+
+.strategySection .StrategyTitle {
+  margin: 4rem auto 0.5rem;
+  font-size: 42px;
+  font-weight: 900;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+}
+
+.strategySection .strategyParagraph {
+  text-align: center;
+  font-size: 25px;
+  width: 550px;
+  font-weight: 600;
+  line-height: 30px;
+  background: linear-gradient(
+    270.1deg,
+    rgba(255, 255, 247, 0) -31.75%,
+    #fffff7 102.04%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.strategySection .startegyCardsContainer {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.1rem;
+}
+
+.strategySection .startegyCardsContainer .cardStartegy {
+  width: 250px;
+  perspective: 1000px;
+  background: linear-gradient(
+    212.51deg,
+    rgba(30, 30, 30, 0.34) 1.15%,
+    rgba(22, 22, 22, 0.34) 87.87%
+  );
+  padding: 10px 15px;
+  border: 1px solid rgba(85, 85, 85, 0.71);
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.strategySection .startegyCardsContainer .cardStartegy:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(30, 30, 30, 0.55) 0%,
+    rgba(0, 52, 82, 0.55) 100%
+  );
+  /* box-shadow: 0px 4px 100.9px rgba(35, 127, 247, 0.295) inset,
+    4px 4px 50.9px rgba(35, 127, 247, 0.295); */
+  border-color: #2577f9 #2577f9 #00d2e5 #00d2e5;
+}
+
+.strategySection .startegyCardsContainer .cardStartegy .cardTitle {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.strategySection .startegyCardsContainer .cardStartegy .catdParagraph {
+  font-size: 15px;
+  font-weight: 200;
+  color: rgb(169, 169, 169);
+}
+
+/* End Strategy Section */
+
+/* Video Section */
+.videoSection {
+  background: url("../../public/group.png");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 20px 10px;
+  margin: 2rem auto;
+}
+
+.videoSection .videoContainer {
+  width: 60%;
+}
+
+.videoSection .video {
+  height: 440px;
+  width: 780px;
+  overflow: hidden;
+  position: relative;
+  border: none;
+}
+.videoContainer .video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoSection .videoPara {
+  letter-spacing: 6px;
+  font-size: 16px;
+}
+
+.videoSection .videoPara .VideoCompnayName {
+  color: #00bce5;
+}
+
+/* Our Core Values Section */
+
+.ourCoreValuesSection {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 1rem 0.5rem;
+}
+
+.ourCoreValuesSection .ourCoreValuesTitle {
+  margin: 3rem auto 1rem;
+  font-size: 42px;
+  font-weight: 900;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+}
+
+.ourCoreValuesSection .ourCoreValuesparagraph {
+  text-align: center;
+  font-size: 17px;
+  width: 750px;
+  font-weight: 600;
+  background: linear-gradient(
+    270.1deg,
+    rgba(255, 255, 247, 0) -31.75%,
+    #fffff7 102.04%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.ourCoreValuesSection .imagesContainer {
+  margin: 2rem auto 1rem;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgOne,
+.ourCoreValuesSection .imagesContainer .ourCoreImgThree,
+.ourCoreValuesSection .imagesContainer .ourCoreImgTwo {
+  width: 250px;
+  height: 425px;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background-position: center;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgOne {
+  background: url("../../public/ourCore.jpg") no-repeat;
+  background-size: cover;
+  background-position: left;
+  position: relative;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgTwo {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgTwo .ourCoreImgOneTop,
+.ourCoreValuesSection .imagesContainer .ourCoreImgTwo .ourCoreImgOnebottom {
+  width: 100%;
+  border-radius: 15px;
+  position: relative;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgTwo .ourCoreImgOneTop {
+  height: 155.4px;
+  background: url("../../public/fintech.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgTwo .ourCoreImgOnebottom {
+  height: 255.2px;
+  background: url("../../public/Rectangle25.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgThree {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgThree .ourCoreImgOneTop,
+.ourCoreValuesSection .imagesContainer .ourCoreImgThree .ourCoreImgOnebottom {
+  width: 100%;
+  border-radius: 15px;
+  position: relative;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgThree .ourCoreImgOnebottom {
+  height: 155.4px;
+  background: url("../../public/library.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgThree .ourCoreImgOneTop {
+  height: 255.2px;
+  background: url("../../public/cycle.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgOne .community {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgOne .masterBlochchain {
+  position: absolute;
+  bottom: 49px;
+  left: 20px;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.ourCoreValuesSection
+  .imagesContainer
+  .ourCoreImgTwo
+  .ourCoreImgOneTop
+  .fintech,
+.ourCoreValuesSection
+  .imagesContainer
+  .ourCoreImgTwo
+  .ourCoreImgOnebottom
+  .blockcahin,
+.ourCoreValuesSection
+  .imagesContainer
+  .ourCoreImgThree
+  .ourCoreImgOneTop
+  .hitech,
+.ourCoreValuesSection
+  .imagesContainer
+  .ourCoreImgThree
+  .ourCoreImgOnebottom
+  .knowledge {
+  position: absolute;
+  bottom: 15px;
+  font-size: 22px;
+  left: 20px;
+  font-weight: 500;
+}
+
+/* End Core Values Section*/
+
+/* Our Projects Section*/
+
+.ourProjectsSection {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1.5rem auto;
+  background: url("../../public/group.png"), url("../../public/light.png"),
+    url("../../public/backgroundtext.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right, left, left;
+  background-size: 50%, 15%, 13%;
+}
+
+.ourProjectsSection .ourProjectsTitle {
+  font-size: 42px;
+  font-weight: 900;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+  margin: 2rem auto;
+}
+
+.ourProjectsSection .ourProjectsCardsContainer {
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.ourProjectsSection .cardLink {
+  width: 60%;
+}
+
+.ourProjectsSection .ourProjectsCardsContainer .ourProjectsCard {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  border-radius: 15px;
+  border: 1px solid rgb(41, 41, 41);
+  background: #090909;
+  padding: 35px;
+  position: relative;
+}
+
+.ourProjectsSection
+  .ourProjectsCardsContainer
+  .ourProjectsCard
+  .ourProjectsCardTitle {
+  font-size: 35px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.ourProjectsSection
+  .ourProjectsCardsContainer
+  .ourProjectsCard
+  .ourProjectCardparagraph {
+  font-size: 14px;
+  font-weight: 300;
+  color: #7a7a7a;
+}
+
+.ourProjectsSection
+  .ourProjectsCardsContainer
+  .ourProjectsCard
+  .hovercontentContainer {
+  padding: 10px;
+  transition: 0.3s all;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #090909;
+  top: 0;
+  left: -200%;
+  opacity: 0;
+  transition: left 0.3s ease, opacity 0.3s ease;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(41, 41, 41);
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ourProjectsSection
+  .ourProjectsCardsContainer
+  .ourProjectsCard:hover
+  .hovercontentContainer {
+  animation: slideInFromLeft 0.5s forwards, fadeIn 0.5s forwards;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    left: -50%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.ourProjectsSection
+  .ourProjectsCardsContainer
+  .ourProjectsCard
+  .hovercontentContainer
+  .textcontainer {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.5rem;
+  flex: 0.8;
+}
+
+.ourProjectsSection
+  .hovercontentContainer
+  .textcontainer
+  .ourProjectsCardTitleHover {
+  font-size: 35px;
+  font-weight: 400;
+  color: #cccccc;
+  background: linear-gradient(90deg, #00e5d1 -46.27%, #2577f9 102.99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.ourProjectsSection .hovercontentContainer .textcontainer .paragraphAndArrow {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 300;
+  color: #7a7a7a;
+}
+
+.ourProjectsSection
+  .hovercontentContainer
+  .textcontainer
+  .paragraphAndArrow
+  .projectshoverIcon {
+  color: #00bce5;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.imgContainer {
+  width: 250px;
+  height: 220px;
+}
+
+.imgContainer .projectsimg {
+  width: 100%;
+  height: 100%;
+}
+
+/* End Our Projects Section*/
+
+/* Chairman Section */
+
+.chairManSection {
+  flex-wrap: wrap;
+  padding: 70px 10px 120px;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  background: url("../../public/group.png"),
+    url("../../public/lightchairman.png"),
+    linear-gradient(180deg, #170f2ebb 2%, #000000 95%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right, 30%, center;
+  background-size: 25%, 53%, 100%;
+  margin: 1rem auto;
+}
+
+.chairManSection .chairmanImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 290px;
+  height: 290px;
+  background: rgba(99, 101, 138, 0.26);
+  backdrop-filter: blur(24.5px);
+  border-radius: 23px;
+}
+
+.chairManSection .chairmanImgContainer .chairmanImg {
+  width: 100%;
+  height: 100%;
+}
+
+.chairManSection .chairmanTextContainer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.chairManSection .chairmanTextContainer .chairmanTitle {
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, #00e5d1 -46.27%, #2577f9 102.99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 43px;
+}
+
+.chairManSection .chairmanTextContainer .chairmanParagraph {
+  background: linear-gradient(
+    269.88deg,
+    rgba(255, 255, 247, 0) -49.86%,
+    #fffff7 122.16%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 20px;
+  width: 450px;
+}
+
+/* End Chairman Section */
+
+/* our community */
+.OurCommunitySection {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 1rem 0.5rem;
+}
+
+.OurCommunitySection .OurCommunityTitle {
+  margin: 3rem auto 1rem;
+  font-size: 42px;
+  font-weight: 900;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+}
+
+.OurCommunitySection .OurCommunityCardsContainer {
+  margin: 2rem auto 1rem;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.OurCommunitySection .OurCommunityCardsContainer .OurCommunityoneAndThreeCard,
+.OurCommunitySection .OurCommunityCardsContainer .OurCommunityCardTwo {
+  width: 215px;
+  height: 405px;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background-position: center;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityCardTwo
+  .cardNumber,
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityoneAndThreeCard
+  .cardNumber {
+  font-size: 32px;
+  position: absolute;
+  top: 20px;
+  left: 16px;
+}
+
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityoneAndThreeCard
+  .OurCommunitycardtext,
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityCardTwo
+  .OurCommunitycardtext {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  flex-direction: column;
+  position: absolute;
+  font-size: 12px;
+  bottom: 15px;
+  left: 16px;
+}
+
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunitycardtext
+  .OurCommunityCardTitle {
+  font-size: 18px;
+}
+
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunitycardtext
+  .OurCommunityCardParag {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityCardTwo
+  .OurCommunityTwoTopCard,
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityCardTwo
+  .ourCoreImgOnebottom,
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityoneAndThreeCard
+  .oneAndThreeCardTop,
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityoneAndThreeCard
+  .oneAndThreeCardBottom {
+  width: 100%;
+  border-radius: 15px;
+  position: relative;
+}
+
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityCardTwo
+  .OurCommunityTwoTopCard {
+  height: 142.4px;
+  background: url("../../public/OurCommunityimg2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityCardTwo
+  .ourCoreImgOnebottom,
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityoneAndThreeCard
+  .oneAndThreeCardTop {
+  height: 240.2px;
+  background: #171717;
+  border: 1px solid #2d2d2d;
+}
+
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityoneAndThreeCard
+  .oneAndThreeCardBottom {
+  height: 142.4px;
+}
+
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityoneAndThreeCard:first-child
+  .oneAndThreeCardBottom {
+  background: url("../../public/OurCommunityimg3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.OurCommunitySection
+  .OurCommunityCardsContainer
+  .OurCommunityoneAndThreeCard:nth-child(3)
+  .oneAndThreeCardBottom {
+  background: url("../../public/OurCommunityimg1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+/* End our community */
+
+/* Get Started Section */
+
+.getStartedSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem auto;
+  text-align: center;
+  padding: 2rem 0.5rem;
+}
+
+.getStartedSection .getStartedTitle {
+  margin: 3rem auto 0rem;
+  font-size: 26px;
+  font-weight: 900;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+}
+
+.getStartedSection .getStartedParagraph {
+  color: white;
+  width: 700px;
+  font-size: 39px;
+  margin: 1rem auto 2rem;
+}
+
+.getStartedSection .getStartedButton {
+  padding: 40px 80px;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 70px;
+  margin-bottom: 2.5rem;
+  letter-spacing: 4px;
+  transition: 0.3s;
+}
+
+.getStartedSection .getStartedButton:hover {
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  color: white;
+  letter-spacing: 6px;
+}
+
+.getStartedSecondParagraph {
+  font-weight: 300;
+  font-size: 18px;
+  width: 600px;
+  line-height: 26px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .videoSection .videoContainer {
+    width: 95%;
+  }
+
+  .videoSection .video {
+    height: 360px;
+    width: 640px;
+  }
+
+  .ourProjectsSection .cardLink {
+    width: 82%;
+  }
+
+  .ourProjectsSection .ourProjectsCardsContainer .ourProjectsCard {
+    padding: 15px;
+  }
+
+  .ourProjectsSection
+    .hovercontentContainer
+    .textcontainer
+    .ourProjectsCardTitleHover {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .mainSection .container .title {
+    font-size: 37px;
+  }
+
+  .mainSection .container .title .companyName {
+    font-size: 39px;
+  }
+
+  .mainSection .container .paragraph {
+    width: 90%;
+  }
+
+  .videoSection .videoContainer {
+    width: 95%;
+  }
+
+  .videoSection .video {
+    height: 330px;
+    width: 578px;
+  }
+
+  .ourCoreValuesSection .ourCoreValuesTitle {
+    font-size: 35px;
+  }
+
+  .ourCoreValuesSection .ourCoreValuesparagraph {
+    font-size: 18px;
+    width: 95%;
+  }
+
+  .ourProjectsSection .cardLink {
+    width: 78%;
+  }
+
+  .ourProjectsSection .ourProjectsCardsContainer .ourProjectsCard {
+    padding: 15px;
+  }
+
+  .ourProjectsSection
+    .hovercontentContainer
+    .textcontainer
+    .ourProjectsCardTitleHover {
+    font-size: 25px;
+  }
+
+  .ourProjectsSection .hovercontentContainer .textcontainer .paragraphAndArrow {
+    font-size: 12px;
+  }
+  .OurCommunitySection .OurCommunityTitle {
+    font-size: 32px;
+  }
+
+  .OurCommunitySection .OurCommunityCardsContainer {
+    gap: 0.9rem;
+  }
+  .chairManSection .chairmanTextContainer .chairmanTitle {
+    font-size: 35px;
+  }
+
+  .chairManSection .chairmanTextContainer .chairmanParagraph {
+    font-size: 19px;
+  }
+  .getStartedSection .getStartedParagraph {
+    width: 100%;
+    font-size: 30px;
+  }
+  .getStartedSection .getStartedButton {
+    padding: 20px 45px;
+    font-size: 37px;
+    font-weight: 600;
+    border-radius: 50px;
+    letter-spacing: 3px;
+  }
+  .getStartedSecondParagraph {
+    width: 100%;
+    line-height: 23px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .mainSection .container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .mainSection .container .btn {
+    margin: 3rem auto 2rem;
+    padding: 10px 12px;
+    font-weight: 600;
+  }
+
+  .mainSection .container .title {
+    font-size: 25px;
+  }
+
+  .mainSection .container .title .companyName {
+    font-size: 27px;
+  }
+
+  .mainSection .container .paragraph {
+    width: 98%;
+  }
+
+  .strategySection .StrategyTitle {
+    font-size: 32px;
+  }
+
+  .strategySection .strategyParagraph {
+    text-align: center;
+    font-size: 23px;
+    width: 98%;
+  }
+
+  .videoSection .videoContainer {
+    width: 98%;
+  }
+  .videoSection .video {
+    height: 330px;
+    width: 100%;
+  }
+
+  .videoSection .videoPara {
+    letter-spacing: 4px;
+    font-size: 14px;
+  }
+
+  .ourCoreValuesSection .ourCoreValuesTitle {
+    font-size: 32px;
+  }
+
+  .ourCoreValuesSection .ourCoreValuesparagraph {
+    font-size: 16px;
+    width: 99%;
+    font-weight: 500;
+  }
+
+  .ourProjectsSection .ourProjectsTitle {
+    font-size: 32px;
+  }
+
+  .ourProjectsSection .cardLink {
+    width: 92%;
+  }
+
+  .ourProjectsSection
+    .ourProjectsCardsContainer
+    .ourProjectsCard
+    .ourProjectsCardTitle {
+    font-size: 28px;
+  }
+
+  .ourProjectsSection .ourProjectsCardsContainer .ourProjectsCard {
+    height: max-content;
+    padding: 10px;
+  }
+
+  .ourProjectsSection
+    .ourProjectsCardsContainer
+    .ourProjectsCard
+    .hovercontentContainer {
+    display: none;
+  }
+
+  .chairManSection .chairmanTextContainer .chairmanTitle {
+    font-size: 27px;
+  }
+
+  .chairManSection .chairmanTextContainer .chairmanParagraph {
+    font-size: 16px;
+    width: 93%;
+  }
+
+  .OurCommunitySection .OurCommunityTitle {
+    font-size: 30px;
+  }
+
+  .OurCommunitySection .OurCommunityCardsContainer {
+    gap: 0.9rem;
+  }
+  .getStartedSection .getStartedParagraph {
+    width: 100%;
+    font-size: 28px;
+  }
+  .getStartedSection .getStartedButton {
+    padding: 15px 40px;
+    font-size: 35px;
+    font-weight: 600;
+    border-radius: 50px;
+    letter-spacing: 3px;
+  }
+  .getStartedSecondParagraph {
+    width: 100%;
+    line-height: 23px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .mainSection .container .title {
+    font-size: 18px;
+  }
+
+  .mainSection .container .title .companyName {
+    font-size: 20px;
+  }
+
+  .strategySection .startegyCardsContainer .cardStartegy {
+    width: 75%;
+    padding: 10px;
+  }
+
+  .strategySection .startegyCardsContainer .cardStartegy .cardTitle {
+    font-size: 20px;
+  }
+
+  .videoSection .videoContainer {
+    width: 97%;
+  }
+
+  .videoSection .video {
+    height: 300px;
+    width: 100%;
+  }
+  .chairManSection .chairmanTextContainer .chairmanParagraph {
+    width: 97%;
+  }
+}

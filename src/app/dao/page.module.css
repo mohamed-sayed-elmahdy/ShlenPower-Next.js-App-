@@ -1,0 +1,170 @@
+/*  what Is Block Section */
+.whatIsBlockSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg,transparent,rgba(0,0,0,.75)) no-repeat,url("../../../public/whatIsBlock.png") no-repeat;
+  background-size: cover;
+  background-position: center , top;
+  margin: 0rem 2rem 1rem;
+  border-radius: 10px;
+}
+
+.whatIsBlockSection .whatIsBlockTitle {
+  margin: 14rem auto 1rem;
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.whatIsBlockSection .whatIsBlockParagraph {
+  text-align: center;
+  font-weight: 400;
+  margin: 1rem auto 12rem;
+  width: 49%;
+  text-transform: capitalize;
+}
+
+/* End what Is Block Section*/
+
+.WhatIsparagraph {
+  width: 59.2%;
+  margin: 3rem auto 2rem;
+  color: #cccccc;
+}
+.WhatIsparagraph h1 {
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  font-weight: 800;
+  color: transparent;
+  margin-bottom: 1rem;
+}
+.WhatIsparagraph p {
+  font-size: 15px;
+  color: #cccccc;
+}
+.WhatIsparagraph .ZeroParagraph {
+  margin-top: 1.2rem;
+  color: #cccccc;
+}
+
+.compareContainer {
+  margin: 3rem auto 2rem;
+  color: #cccccc;
+  width: 59.2%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+.compareContainer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.left,
+.right {
+  flex: 1;
+}
+.compareContainer h3 {
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  font-weight: 800;
+  color: transparent;
+  margin-bottom: 1rem;
+  font-size: 22px;
+}
+.compareContainer p {
+  font-size: 16px;
+  color: #cccccc;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .whatIsBlockSection .whatIsBlockTitle {
+    font-size: 35px;
+  }
+  .whatIsBlockSection .whatIsBlockParagraph {
+    width: 85%;
+  }
+  .compareContainer {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .whatIsBlockSection .whatIsBlockTitle {
+    font-size: 32px;
+  }
+  .whatIsBlockSection .whatIsBlockParagraph {
+    width: 85%;
+  }
+  .WhatIsparagraph {
+    width: 80%;
+  }
+  .compareContainer {
+    width: 90%;
+  }
+  .compareContainer .container {
+    gap: 1rem;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .whatIsBlockSection .whatIsBlockTitle {
+    font-size: 28px;
+  }
+  .whatIsBlockSection .whatIsBlockParagraph {
+    width: 89%;
+  }
+  .WhatIsparagraph {
+    width: 88%;
+  }
+  .compareContainer {
+    width: 97%;
+  }
+  .compareContainer .container {
+    gap: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .whatIsBlockSection {
+    margin: 0rem 1rem 1rem;
+  }
+  .whatIsBlockSection .whatIsBlockTitle {
+    font-size: 28px;
+  }
+  .whatIsBlockSection .whatIsBlockParagraph {
+    width: 95%;
+  }
+  .WhatIsparagraph h3 {
+    font-size: 15px;
+  }
+  .WhatIsparagraph {
+    width: 96%;
+  }
+  .WhatIsparagraph .ZeroParagraph {
+    font-size: 14px;
+  }
+
+  .compareContainer {
+    width: 94%;
+  }
+  .compareContainer .container {
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+  .compareContainer h3 {
+    font-size: 16px;
+  }
+  .compareContainer p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 400px) {
+}

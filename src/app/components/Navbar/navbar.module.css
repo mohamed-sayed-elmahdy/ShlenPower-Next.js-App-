@@ -1,0 +1,236 @@
+/* nav style  */
+ .navContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 3000;
+  background-color: black;
+}
+.navContainer .logo {
+  transition: all 0.3s;
+}
+.navContainer .links {
+  justify-content: center;
+  gap: 29px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.navContainer .links .link {
+  transition: all 0.3s;
+  position: relative;
+  text-decoration: none;
+}
+.navContainer .links .link:hover {
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  color: transparent;
+  background-clip: text;
+  transform: translateY(-2px);
+}
+
+.navContainer .links .link:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  z-index: -1;
+}
+
+.navContainer .links .menu {
+  position: relative;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 6px;
+  cursor: pointer;
+  padding: 10px 5px;
+}
+.navContainer .links .menu .dropmenu {
+  display: none;
+  list-style: none;
+  position: absolute;
+  top: calc(100% + -3px);
+  left: -10px;
+  width: 270px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid #4242429d;
+  border-radius: 18px;
+  z-index: 4000;
+  font-size: 14px;
+  padding: 20px;
+  background-color: black;
+  cursor: default;
+}
+.navContainer .links .menu .rightMenu {
+  right: 20px;
+  top: calc(100% + -3px);
+  left: -100px;
+}
+.navContainer .links .menu .lastMenu {
+  left: -180px;
+
+}
+
+.navContainer .links .menu:hover .dropmenu {
+  display: flex;
+}
+
+.navContainer .links .menu .dropmenu .menuParagraph {
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  font-weight: 700;
+  color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+.navContainer .links .menu .dropmenu .linkmenu {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  font-weight: 400;
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+.dropmenu .linkmenu h2 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dropmenu .linkmenu:hover h2 {
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+}
+.navContainer .links .menu .dropmenu .linkmenu:hover {
+  border-color: #00b7e5 #2577f9 #2577f9 #00b0e5;
+}
+.navContainer .links .menu .dropmenu .linkmenu .linkParagraph {
+  font-weight: 200;
+  margin-top: 0.2rem;
+  font-size: 12px;
+}
+.linkscontainer {
+  flex-direction: column;
+}
+
+
+
+.navMobileContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 1000;
+  transition: 0.9s all;
+}
+.navMobileContainer .logoContainer {
+  margin-left: 1rem;
+}
+.navMobileContainer .links {
+  padding: 10px 10px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.navMobileContainer .links .menu {
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
+  cursor: pointer;
+  padding: 5px 0;
+}
+.navMobileContainer .links .menu .dropmenu {
+  display: none;
+  list-style: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 18px;
+  z-index: 4000;
+  font-size: 14px;
+  padding: 20px;
+  background: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  cursor: default;
+  width: 96%;
+  margin-top: 0.7rem;
+  margin-bottom: 1.2rem;
+}
+.navMobileContainer .links .menu .dropmenu.showDropmenu {
+  display: flex;
+}
+.navMobileContainer  .sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.navMobileContainer .closeIcon {
+  font-size: 25px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.navMobileContainer .menuIcon {
+  color: white;
+  display: none; 
+  cursor: pointer;
+  font-size: 25px;
+  margin-right: 1.5rem;
+}
+.navMobileContainer  .showSidebar {
+  width: 44%;
+}
+.navMobileContainer  .link {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+  color: #00e5d1;
+}
+
+@media screen and (min-width: 855px) {
+  .navMobileContainer  {
+    display: none; 
+  }
+}
+@media screen and (max-width: 854px) {
+  .navContainer {
+    display: none;
+  }
+  .navMobileContainer .menuIcon {
+    display: block; 
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+  .navMobileContainer  .showSidebar {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navMobileContainer  .showSidebar {
+    width: 80%;
+  }
+}

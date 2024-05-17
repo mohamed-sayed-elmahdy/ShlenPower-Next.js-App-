@@ -1,0 +1,94 @@
+.CardAndTextSection {
+  flex-wrap: wrap;
+  padding: 70px 10px 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 2.7rem;
+  background: url("../../../../public/whyBlockLight.png") no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -5%;
+  background-size: 25%;
+  margin: 1rem auto 0.5rem;
+}
+
+.CardAndTextSection .CardAndTextImgContainer {
+  width: 370px;
+  height: 380px;
+  border-radius: 23px;
+}
+
+.CardAndTextSection .CardAndTextImgContainer .CardAndTextImg {
+  width: 100%;
+  height: 100%;
+}
+
+.CardAndTextSection .CardAndTextTextContainer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.CardAndTextSection .CardAndTextTextContainer .CardAndTextTitle {
+  margin-bottom: 1rem;
+  color: white;
+  width: 400px;
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.CardAndTextSection .CardAndTextTextContainer .CardAndTextParagraph {
+  text-transform: capitalize;
+  font-size: 16px;
+  width: 500px;
+  margin-bottom: 1.5rem;
+}
+
+.CardAndTextSection .CardAndTextTextContainer .secondParagraph {
+  font-size: 16px;
+  width: 500px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .CardAndTextSection .CardAndTextImgContainer {
+    width: 500px;
+    height: 490px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .CardAndTextSection .CardAndTextTextContainer .CardAndTextTitle {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .CardAndTextSection .CardAndTextImgContainer {
+    width: 320px;
+    height: 320px;
+  }
+  .CardAndTextSection .CardAndTextTextContainer {
+    padding: 5px;
+    width: 100%;
+  }
+  .CardAndTextSection .CardAndTextTextContainer .CardAndTextTitle {
+    font-size: 20px;
+    width: 98%;
+  }
+  .CardAndTextSection .CardAndTextTextContainer .CardAndTextParagraph,
+  .CardAndTextSection .CardAndTextTextContainer .secondParagraph {
+    width: 98%;
+  }
+  .CardAndTextSection .CardAndTextTextContainer .CardAndTextParagraph,
+  .CardAndTextSection .CardAndTextTextContainer .secondParagraph {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .CardAndTextSection .CardAndTextImgContainer {
+    width: 290px;
+    height: 290px;
+  }
+}

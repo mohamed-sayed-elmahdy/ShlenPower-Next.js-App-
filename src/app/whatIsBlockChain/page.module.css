@@ -1,0 +1,429 @@
+/*  what Is Block Section */
+.whatIsBlockSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg,transparent,rgba(0,0,0,.75)) no-repeat, url("../../../public/whatIsBlock.png") no-repeat;
+  background-size: cover;
+  background-position: center , top;
+  margin: 0rem 2rem 1rem;
+  border-radius: 10px;
+}
+
+.whatIsBlockSection .whatIsBlockTitle {
+  margin: 14rem auto 1rem;
+  font-size: 52px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.whatIsBlockSection .whatIsBlockParagraph {
+  text-align: center;
+  font-weight: 400;
+  margin: 1rem auto 12rem;
+  width: 49%;
+  text-transform: capitalize;
+}
+
+/* End what Is Block Section*/
+
+/* key Element Section */
+
+.keyElementSection {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.1rem;
+  background: url("../../../public/keyelementLight.png") no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 102%;
+  background-size: 25%;
+  margin: 5rem auto 1rem;
+}
+
+.keyElementSection .TitleAndImgContainer {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 390px;
+  border-radius: 23px;
+}
+
+.keyElementSection .keyElemntTitle {
+  font-size: 54px;
+  font-weight: 900;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 2.5rem;
+}
+
+.keyElementSection .KeyElementImgContainer {
+  width: 100%;
+  height: 320px;
+}
+
+.keyElementSection .KeyElementImgContainer .whyBlockImg {
+  width: 100%;
+  height: 100%;
+}
+
+.keyElementSection .whatIsBlockCardsContainer {
+  flex-direction: column;
+  width: 500px;
+  gap: 1.5rem;
+}
+
+.keyElementSection .whatIsBlockCardsContainer .whatIsBlockCard {
+  padding: 20px 15px;
+  width: 100%;
+  gap: 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.121569);
+  border-radius: 18px;
+  line-height: 18px;
+  text-transform: capitalize;
+  background: rgb(15, 15, 15);
+}
+
+.keyElementSection
+  .whatIsBlockCardsContainer
+  .whatIsBlockCard
+  .cardTextContainer {
+  width: 380px;
+}
+
+.keyElementSection .whatIsBlockCardsContainer .whatIsBlockCard .cardTitle {
+  margin-bottom: 0.8rem;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.keyElementSection .whatIsBlockCardsContainer .whatIsBlockCard .cardParagraph {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.CardNumberContainer {
+  font-size: 50px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex: 2;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* End key Element Section */
+
+/* How blockchain works  */
+
+.HowBlockChainWorksSection {
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.1rem;
+  margin: 5rem auto 1rem;
+}
+
+.HowBlockChainWorksSection .HowBlockChainWorksTitle {
+  font-size: 48px;
+  font-weight: 900;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 2.5rem;
+}
+
+.HowBlockChainWorksSection .fullWidthCard {
+  width: 60%;
+  padding: 20px 10px;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  border: 1px solid rgb(45, 45, 45);
+  flex-wrap: wrap;
+}
+
+.HowBlockChainWorksSection .fullWidthCard .textContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 47%;
+}
+
+.HowBlockChainWorksSection .fullWidthCard .textContainer .cardTitleHowBlock {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+  text-transform: capitalize;
+}
+
+.fullWidthCard .textContainer .cardParagraphHowBlock {
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.HowBlockChainWorksSection .fullWidthCard .HowBlockImgContainer {
+  width: 44%;
+  height: 220px;
+}
+
+.HowBlockImgContainer .HowBlockImg {
+  width: 220px;
+  height: 220px;
+}
+
+.rowCardsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  flex-direction: row;
+  width: 60%;
+}
+
+.rowCardsContainer .rowCard {
+  width: 48%;
+  flex-direction: column;
+  padding: 10px 20px;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  border: 1px solid rgb(45, 45, 45);
+  flex-wrap: wrap;
+}
+
+.rowCardsContainer .rowCard .textContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0.5rem auto 1rem;
+}
+
+.rowCardsContainer .rowCard .textContainer .cardTitleHowBlock {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+  text-transform: capitalize;
+}
+
+.rowCard .textContainer .cardParagraphHowBlock {
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.rowCardsContainer .rowCard .HowBlockImgContainer {
+  width: 100%;
+  height: 240px;
+}
+
+.HowBlockImgContainer .HowBlockImg {
+  width: 100%;
+  height: 100%;
+}
+
+.HowBlockChainWorksSection .bottomFullWidthCard {
+  width: 58.5%;
+  flex-direction: column;
+  padding: 20px 10px;
+  gap: 0.7rem;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(181.82deg, #00e5d1 -98.02%, #2577f9 98.8%);
+  border: 2px solid #262626;
+  backdrop-filter: blur(25px);
+  border-radius: 22px;
+  text-align: center;
+}
+.HowBlockChainWorksSection .bottomFullWidthCard .cardTitleHowBlock {
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.HowBlockChainWorksSection .bottomFullWidthCard .cardParagraphHowBlock {
+  margin: 1rem auto;
+  width: 70%;
+  text-transform: capitalize;
+  line-height: 37px;
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .HowBlockChainWorksSection .fullWidthCard {
+    width: 75%;
+  }
+  .rowCardsContainer {
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .whatIsBlockSection .whatIsBlockTitle {
+    font-size: 38px;
+  }
+  .whatIsBlockSection .whatIsBlockParagraph {
+    width: 85%;
+  }
+  .keyElementSection .keyElemntTitle {
+    font-size: 44px;
+  }
+  .HowBlockChainWorksSection .fullWidthCard {
+    width: 90%;
+  }
+  .rowCardsContainer {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .whatIsBlockSection .whatIsBlockTitle {
+    font-size: 30px;
+  }
+  .whatIsBlockSection .whatIsBlockParagraph {
+    width: 89%;
+  }
+  .keyElementSection .keyElemntTitle {
+    font-size: 34px;
+  }
+  .HowBlockChainWorksSection .bottomFullWidthCard {
+    width: 95%;
+  }
+  .HowBlockChainWorksSection .bottomFullWidthCard .cardTitleHowBlock,
+  .HowBlockChainWorksSection .HowBlockChainWorksTitle {
+    font-size: 28px;
+  }
+  .HowBlockChainWorksSection .bottomFullWidthCard .cardParagraphHowBlock {
+    width: 100%;
+    line-height: 35px;
+  }
+  .HowBlockChainWorksSection .fullWidthCard,
+  .rowCardsContainer {
+    width: 90%;
+  }
+  .HowBlockChainWorksSection .fullWidthCard .textContainer {
+    width: 100%;
+  }
+  .HowBlockChainWorksSection .fullWidthCard .HowBlockImgContainer,
+  .rowCardsContainer .rowCard .HowBlockImgContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .HowBlockImgContainer .HowBlockImg {
+    width: 220px;
+    height: 220px;
+  }
+  .rowCardsContainer .rowCard .textContainer .cardTitleHowBlock,
+  .HowBlockChainWorksSection .fullWidthCard .textContainer .cardTitleHowBlock {
+    font-size: 22px;
+  }
+  .fullWidthCard .textContainer .cardParagraphHowBlock,
+  .rowCard .textContainer .cardParagraphHowBlock {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .whatIsBlockSection {
+    margin: 0rem 1rem 1rem;
+  }
+  .whatIsBlockSection .whatIsBlockTitle {
+    font-size: 28px;
+  }
+  .whatIsBlockSection .whatIsBlockParagraph {
+    width: 95%;
+  }
+  .keyElementSection .keyElemntTitle {
+    font-size: 20px;
+    padding: 18px;
+  }
+  .keyElementSection .TitleAndImgContainer {
+    width: 350px;
+  }
+  .keyElementSection .whatIsBlockCardsContainer {
+    flex-direction: column;
+    width: 97%;
+    gap: 1rem;
+  }
+  .keyElementSection .whatIsBlockCardsContainer .whatIsBlockCard {
+    padding: 20px 10px;
+    gap: 0.9rem;
+  }
+  .keyElementSection .whatIsBlockCardsContainer .whatIsBlockCard .cardTitle {
+    font-size: 18px;
+  }
+  .CardNumberContainer {
+    font-size: 30px;
+  }
+
+  .HowBlockChainWorksSection .bottomFullWidthCard {
+    width: 98%;
+  }
+  .HowBlockChainWorksSection .bottomFullWidthCard .cardTitleHowBlock,
+  .HowBlockChainWorksSection .HowBlockChainWorksTitle {
+    font-size: 26px;
+  }
+  .HowBlockChainWorksSection .bottomFullWidthCard .cardParagraphHowBlock {
+    width: 100%;
+    line-height: 32px;
+  }
+  .HowBlockChainWorksSection .fullWidthCard,
+  .rowCardsContainer {
+    width: 80%;
+  }
+  .rowCardsContainer {
+    flex-direction: column;
+  }
+  .rowCardsContainer .rowCard {
+    width: 100%;
+  }
+  .HowBlockChainWorksSection .fullWidthCard .textContainer {
+    width: 100%;
+  }
+  .HowBlockChainWorksSection .fullWidthCard .HowBlockImgContainer,
+  .rowCardsContainer .rowCard .HowBlockImgContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .HowBlockImgContainer .HowBlockImg {
+    width: 220px;
+    height: 220px;
+  }
+  .rowCardsContainer .rowCard .textContainer .cardTitleHowBlock,
+  .HowBlockChainWorksSection .fullWidthCard .textContainer .cardTitleHowBlock {
+    font-size: 20px;
+  }
+  .fullWidthCard .textContainer .cardParagraphHowBlock,
+  .rowCard .textContainer .cardParagraphHowBlock {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .keyElementSection .KeyElementImgContainer {
+    width: 270px;
+    height: 260px;
+  }
+  .HowBlockChainWorksSection .bottomFullWidthCard .cardParagraphHowBlock {
+    line-height: 25px;
+  }
+  .HowBlockChainWorksSection .fullWidthCard,
+  .rowCardsContainer {
+    width: 95%;
+  }
+}

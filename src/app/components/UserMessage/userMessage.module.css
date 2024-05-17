@@ -1,0 +1,33 @@
+.modernUI {
+  width: 250px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(
+    114.85deg,
+    rgb(47, 84, 124) -16.49%,
+    rgba(13, 13, 13, 0.938) 141.85%
+  );
+  padding: 20px;
+  border-radius: 25px;
+  z-index: 1001;
+  text-align: center;
+}
+.modernUI p {
+  margin: 0.5rem auto;
+  font-weight: 500;
+}
+.Okbtn {
+  margin: 1rem auto 0.5rem;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(320deg, #00e5d2b6 5%, #2577f9 90%);
+  padding: 10px 60px;
+  border-radius: 18px;
+  border: none;
+  font-weight: 600;
+}
+.Okbtn:hover {
+    background: linear-gradient(320deg, #00746a 5%, #003893 90%);
+}

@@ -1,0 +1,88 @@
+/*  what Is Block Section */
+.whatIsBlockSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg,transparent,rgba(0,0,0,.75)) no-repeat, url("../../../public/whatIsBlock.png") no-repeat;
+  background-size: cover;
+  background-position: center , top;
+  margin: 0rem 2rem 1rem;
+  border-radius: 10px;
+}
+
+.whatIsBlockSection .whatIsBlockTitle {
+  margin: 14rem auto 1rem;
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.whatIsBlockSection .whatIsBlockParagraph {
+  text-align: center;
+  font-weight: 400;
+  margin: 1rem auto 12rem;
+  width: 49%;
+  text-transform: capitalize;
+}
+
+/* End what Is Block Section*/
+
+.WhatIsparagraph {
+  width: 59.2%;
+  margin: 3rem auto 2rem;
+  color: #cccccc;
+}
+.WhatIsparagraph h1 {
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  font-weight: 800;
+  color: transparent;
+  margin-bottom: 1rem;
+}
+.WhatIsparagraph p {
+  font-size: 15px;
+  color: #cccccc;
+}
+.WhatIsparagraph .ZeroParagraph {
+  margin-top: 1.2rem;
+  color: #cccccc;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .whatIsBlockSection .whatIsBlockTitle {
+    font-size: 37px;
+  }
+  .WhatIsparagraph {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .whatIsBlockSection {
+    margin: 0rem 1rem 1rem;
+  }
+  .whatIsBlockSection .whatIsBlockTitle {
+    font-size: 30px;
+  }
+  .WhatIsparagraph {
+    width: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .whatIsBlockSection {
+    margin: 0rem 1rem 1rem;
+  }
+  .whatIsBlockSection .whatIsBlockTitle {
+    font-size: 26px;
+  }
+  .WhatIsparagraph {
+    width: 96%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+}

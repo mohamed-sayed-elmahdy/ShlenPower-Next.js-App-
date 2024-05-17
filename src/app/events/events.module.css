@@ -1,0 +1,119 @@
+.events .weekEvents {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+}
+.events .weekEvents .weekEventsTitle {
+  font-size: 23px;
+}
+.eventsCardsContainer {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.eventsCardsContainer .eventsCard {
+  width: 260px;
+  padding: 12px;
+  background: rgba(24, 24, 60, 0.578);
+  border: 1px solid rgba(85, 85, 85, 0.2);
+  border-radius: 20px;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.eventsCardsContainer .eventsCard .eventImg {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 0.5rem;
+}
+
+.eventsCardsContainer .eventsCard:hover {
+  background: linear-gradient(
+    0deg,
+    rgba(30, 30, 30, 0.55) 0%,
+    rgba(0, 52, 82, 0.55) 100%
+  );
+  border-color: #2577f9 #2577f9 #00d2e5 #00d2e5;
+}
+
+.eventsCardsContainer .eventsCard .date {
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+}
+.eventsCardsContainer .eventsCard .dateAndlocation {
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  font-size: 13px;
+  align-self: flex-start;
+  width: 100%;
+}
+.eventsCardsContainer .eventsCard .btn {
+  width: 90%;
+  padding: 10px;
+  background: #2577f9;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+.eventsCardsContainer .eventsCard .btn:hover {
+  background: #0048bc;
+}
+.eventsCardsContainer .eventsCard .cardTitle {
+  font-size: 19px;
+  font-weight: 400;
+}
+.events .fullWidthCard {
+  margin: 9rem auto;
+  width: 60%;
+  padding: 20px 10px;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  border: 1px solid rgb(45, 45, 45);
+  flex-wrap: wrap;
+}
+.events .fullWidthCard .textContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 47%;
+}
+
+.events .fullWidthCard .textContainer .cardTitleHowBlock {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+  text-transform: capitalize;
+}
+
+.events .fullWidthCard .textContainer .cardParagraphHowBlock {
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.events .fullWidthCard .fullWidthCardImgContainer {
+  width: 44%;
+  height: 220px;
+}
+.events .fullWidthCard .fullWidthCardImgContainer .fullWidthCardImg {
+  width: 100%;
+  height: 100%;
+}

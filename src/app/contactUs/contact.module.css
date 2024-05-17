@@ -1,0 +1,178 @@
+.contactSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../../public/light.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20%;
+  padding: 3rem 0.5rem;
+  position: relative;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.contactSection .formConatiner {
+  justify-content: center;
+  gap: 3.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2.5rem 3rem;
+  border-radius: 15px;
+  background: linear-gradient(
+    114.85deg,
+    rgba(47, 84, 124, 0.553) -16.49%,
+    rgba(13, 13, 13, 0.52) 141.85%
+  );
+}
+.formConatiner .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+.formConatiner .form h1 {
+  font-size: 35px;
+  margin-top: 0.5rem;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+}
+.formConatiner .imgContainer {
+  width: 350px;
+  height: 350px;
+  margin: 1.5rem auto;
+}
+.formConatiner .imgContainer .conatctImg {
+  width: 100%;
+  height: 100%;
+}
+.form .inputsContainer {
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+  margin-top: 0.6rem;
+}
+.form input,
+.form textarea {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 14px;
+  background: transparent;
+  border: 1px solid rgba(0, 255, 255, 0.262);
+  color: white;
+  width: 100%;
+}
+.form .submitForm {
+  color: white;
+  margin: 0.2rem 0;
+  cursor: pointer;
+  background: linear-gradient(320deg, #00e5d2b6 5%, #2577f9 90%);
+  padding: 10px 60px;
+  border-radius: 15px;
+  font-size: 16px;
+  border: none;
+  font-weight: 600;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+.form .submitForm:hover {
+  background: linear-gradient(320deg, #00746a 5%, #003893 90%);
+}
+
+/* Our Offices */
+
+.ourOfficesSection {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../../../public/Ellipse38.png") no-repeat,
+    url("../../../public/Ellipse36.png"), url("../../../public/giphy1.png");
+  background-size: cover;
+  background-position: center, top right, left;
+}
+
+.ourOfficesSection .ourOfficesTitle {
+  margin: 4rem auto 0.5rem;
+  font-size: 42px;
+  font-weight: 900;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+}
+
+.ourOfficesSection .ourOfficesCardsContainer {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.1rem;
+}
+
+.ourOfficesSection .ourOfficesCardsContainer .ourOfficesCard {
+  width: 280px;
+  perspective: 1000px;
+  padding: 15px;
+  background: linear-gradient(
+    212.51deg,
+    rgba(30, 30, 30, 0.34) 1.15%,
+    rgba(22, 22, 22, 0.34) 87.87%
+  );
+  border: 1px solid rgba(85, 85, 85, 0.2);
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.ourOfficesSection .ourOfficesCardsContainer .ourOfficesCard .OfficeImg {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 1rem;
+}
+
+.ourOfficesSection .ourOfficesCardsContainer .ourOfficesCard:hover {
+  background: linear-gradient(
+    0deg,
+    rgba(30, 30, 30, 0.55) 0%,
+    rgba(0, 52, 82, 0.55) 100%
+  );
+  border-color: #2577f9 #2577f9 #00d2e5 #00d2e5;
+}
+
+.ourOfficesSection .ourOfficesCardsContainer .ourOfficesCard .adress {
+  background-image: linear-gradient(150.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+  font-size: 14px;
+  margin-top: 2.1rem;
+}
+
+.ourOfficesSection
+  .ourOfficesCardsContainer
+  .ourOfficesCard
+  .officeLink
+  .arrow {
+  visibility: hidden;
+  font-size: 20px;
+}
+
+.ourOfficesSection .ourOfficesCardsContainer .ourOfficesCard:hover .arrow {
+  visibility: visible;
+  color: #00bce5;
+}
+
+.ourOfficesSection .ourOfficesCardsContainer .ourOfficesCard .cardTitle {
+  font-size: 22px;
+  font-weight: 700;
+}

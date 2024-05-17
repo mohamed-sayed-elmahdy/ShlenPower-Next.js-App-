@@ -1,0 +1,263 @@
+/* our Core Value */
+
+.ourCoreValuesSection {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 1rem 0.5rem;
+}
+
+.ourCoreValuesSection .ourCoreValuesTitle {
+  margin: 3rem auto 1rem;
+  font-size: 42px;
+  font-weight: 900;
+  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
+  background-clip: text;
+  color: transparent;
+}
+
+.ourCoreValuesSection .ourCoreValuesparagraph {
+  text-align: center;
+  font-size: 17px;
+  width: 750px;
+  font-weight: 600;
+  background: linear-gradient(
+    270.1deg,
+    rgba(255, 255, 247, 0) -31.75%,
+    #fffff7 102.04%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.ourCoreValuesSection .imagesContainer {
+  margin: 2rem auto 1rem;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgOne,
+.ourCoreValuesSection .imagesContainer .ourCoreImgThree,
+.ourCoreValuesSection .imagesContainer .ourCoreImgTwo {
+  width: 250px;
+  height: 425px;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background-position: center;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgOne {
+  background: url("../../../public/ourCore.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgTwo {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgTwo .ourCoreImgOneTop,
+.ourCoreValuesSection .imagesContainer .ourCoreImgTwo .ourCoreImgOnebottom {
+  width: 100%;
+  border-radius: 15px;
+  position: relative;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgTwo .ourCoreImgOneTop {
+  height: 155.4px;
+  background: url("../../../public/fintech.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgTwo .ourCoreImgOnebottom {
+  height: 255.2px;
+  background: url("../../../public/Rectangle25.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgThree {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgThree .ourCoreImgOneTop,
+.ourCoreValuesSection .imagesContainer .ourCoreImgThree .ourCoreImgOnebottom {
+  width: 100%;
+  border-radius: 15px;
+  position: relative;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgThree .ourCoreImgOnebottom {
+  height: 155.4px;
+  background: url("../../../public/library.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgThree .ourCoreImgOneTop {
+  height: 255.2px;
+  background: url("../../../public/cycle.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgOne .community {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.ourCoreValuesSection .imagesContainer .ourCoreImgOne .masterBlochchain {
+  position: absolute;
+  bottom: 49px;
+  left: 20px;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.ourCoreValuesSection
+  .imagesContainer
+  .ourCoreImgTwo
+  .ourCoreImgOneTop
+  .fintech,
+.ourCoreValuesSection
+  .imagesContainer
+  .ourCoreImgTwo
+  .ourCoreImgOnebottom
+  .blockcahin,
+.ourCoreValuesSection
+  .imagesContainer
+  .ourCoreImgThree
+  .ourCoreImgOneTop
+  .hitech,
+.ourCoreValuesSection
+  .imagesContainer
+  .ourCoreImgThree
+  .ourCoreImgOnebottom
+  .knowledge {
+  position: absolute;
+  bottom: 15px;
+  font-size: 22px;
+  left: 20px;
+  font-weight: 500;
+}
+
+/* End our Core Value */
+
+/* chair Man Section */
+
+.chairManSection {
+  flex-wrap: wrap;
+  padding: 70px 10px 120px;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  background: url("../../../public/group.png"),
+    url("../../../public/lightchairman.png"),
+    linear-gradient(180deg, #170f2ebb 2%, #000000 95%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right, 30%, center;
+  background-size: 25%, 53%, 100%;
+  margin: 1rem auto;
+}
+
+.chairManSection .chairmanImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 290px;
+  height: 290px;
+  background: rgba(99, 101, 138, 0.26);
+  backdrop-filter: blur(24.5px);
+  border-radius: 23px;
+}
+
+.chairManSection .chairmanImgContainer .chairmanImg {
+  width: 100%;
+  height: 100%;
+}
+
+.chairManSection .chairmanTextContainer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.chairManSection .chairmanTextContainer .chairmanTitle {
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, #00e5d1 -46.27%, #2577f9 102.99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 43px;
+}
+
+.chairManSection .chairmanTextContainer .chairmanParagraph {
+  background: linear-gradient(
+    269.88deg,
+    rgba(255, 255, 247, 0) -49.86%,
+    #fffff7 122.16%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 20px;
+  width: 450px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .ourCoreValuesSection .ourCoreValuesparagraph {
+    width: 90%;
+  }
+
+
+  .chairManSection .chairmanTextContainer .chairmanTitle {
+    font-size: 35px;
+  }
+
+  .chairManSection .chairmanTextContainer .chairmanParagraph {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .ourCoreValuesSection .ourCoreValuesTitle {
+    font-size: 32px;
+  }
+  .ourCoreValuesSection .ourCoreValuesparagraph {
+    width: 98%;
+    font-size: 16px;
+  }
+
+
+  .chairManSection .chairmanTextContainer .chairmanTitle {
+    font-size: 27px;
+  }
+
+  .chairManSection .chairmanTextContainer .chairmanParagraph {
+    font-size: 16px;
+    width: 93%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .chairManSection .chairmanTextContainer .chairmanParagraph {
+    width: 97%;
+  }
+}
