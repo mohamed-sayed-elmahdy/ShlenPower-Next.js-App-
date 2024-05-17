@@ -117,7 +117,7 @@ function page() {
           <div className={styles.imgContainer}>
             <Image
               className={styles.conatctImg}
-              src="/contactUs.png"
+              src="/cardblur.png"
               alt="conatctUsImg"
               width={400}
               height={400}
@@ -137,8 +137,6 @@ function page() {
         <h2 className={styles.ourOfficesTitle}>Our Offices</h2>
 
         <div className={`${styles.ourOfficesCardsContainer} flex`}>
-
-
           <div className={styles.ourOfficesCard}>
             <Image
               className={styles.OfficeImg}
