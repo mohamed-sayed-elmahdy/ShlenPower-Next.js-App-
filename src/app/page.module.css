@@ -773,9 +773,9 @@
   background: transparent;
   border: 1px solid white;
   border-radius: 70px;
-  margin-bottom: 2.5rem;
   letter-spacing: 4px;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .getStartedSection .getStartedButton:hover {
@@ -785,6 +785,7 @@
 }
 
 .getStartedSecondParagraph {
+  margin-bottom: 2.5rem;
   font-weight: 300;
   font-size: 18px;
   width: 600px;
