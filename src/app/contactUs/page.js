@@ -29,20 +29,20 @@ function page() {
     e.preventDefault();
     const formEle = document.querySelector("form");
     const formDatab = new FormData(formEle);
-    fetch(
-      "https://script.google.com/macros/s/AKfycbzspIUEt1XLtAsSD3kEiG8wPm0tE4KKt5Y3sdFXEhVDdsFqyyDOaxmDcFjBdDj8kv7VEw/exec",
-      {
-        method: "POST",
-        body: formDatab,
-      }
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    // fetch(
+    //   "https://script.google.com/macros/s/AKfycbzspIUEt1XLtAsSD3kEiG8wPm0tE4KKt5Y3sdFXEhVDdsFqyyDOaxmDcFjBdDj8kv7VEw/exec",
+    //   {
+    //     method: "POST",
+    //     body: formDatab,
+    //   }
+    // )
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     console.log(data);
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
     setFormData({
       FirstName: "",
       LastName: "",

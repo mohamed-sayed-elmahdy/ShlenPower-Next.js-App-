@@ -23,20 +23,20 @@ function Email() {
     const formEle = document.getElementById("admin");
     const formDatab = new FormData(formEle);
 
-    fetch(
-      "https://script.google.com/macros/s/AKfycbwOHdm3jZQ0uS2ZL_DqsVyey-NWuBrNJENiymR4Q1Rx-RDW-hyUmFCx8PXAT_9xwlWe/exec",
-      {
-        method: "POST",
-        body: formDatab,
-      }
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    // fetch(
+    //   "https://script.google.com/macros/s/AKfycbwOHdm3jZQ0uS2ZL_DqsVyey-NWuBrNJENiymR4Q1Rx-RDW-hyUmFCx8PXAT_9xwlWe/exec",
+    //   {
+    //     method: "POST",
+    //     body: formDatab,
+    //   }
+    // )
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     console.log(data);
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
     setFormData({
       Email: "",
     });
