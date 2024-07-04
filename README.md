@@ -3,7 +3,7 @@ Developed a responsive and high-performance web application using Next.js, demon
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Live Version: https://shlenpower.vercel.app/
+Live Version: https://www.shlenpower.com/
 
 Screenshots:
 ![ShlenPower-Next.js-App](https://raw.githubusercontent.com/mohamed-sayed-elmahdy/ShlenPower-Next.js-App-/master/public/screen1.png)
